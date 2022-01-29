@@ -22,3 +22,20 @@ resource "aws_instance" "app_server" {
 
 
 }
+
+
+resource "aws_vpc" "main" {
+  cidr_block = "10.0.0.0/16"
+}
+resource "aws_s3_bucket" "veee" {
+  bucket = "oke-bucket"
+  acl    = "private"
+
+
+}
+
+
+
+
+
+
