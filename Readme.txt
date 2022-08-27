@@ -4,3 +4,4 @@
 4. cloned using git  desktop
 5. git desktop is such a powerful tool
 I love working with github desktop
+just installed git to my machine
